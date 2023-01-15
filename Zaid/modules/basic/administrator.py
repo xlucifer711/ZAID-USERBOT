@@ -108,9 +108,9 @@ async def member_ban(client: Client, message: Message):
     rd = await message.edit_text("`Processing...`")
     bot = (await client.get_chat_member(message.chat.id, client.me.id)).privileges
     if not bot.can_restrict_members:
-        return await rd.edit("مشـ مـعـاڪـ صـلاحـيـهہ‌‏ ڪـافـيـهہ"‌)
+        return await rd.edit("مشـ مـعـاڪـ صـلاحـيه‏ ڪـافـيـهہ‌")
     if not user_id:
-        return await rd.edit("مـشـ لاقـيـ يـوزࢪهہ‌‏")
+        return await rd.edit("مـشـ لاقـيـ يـوزࢪهہ‌")
     if user_id == client.me.id:
         return await rd.edit("هـتحظـࢪ نفسـگ آزآيـ يـسـطـآآ.")
     if user_id in DEVS:
