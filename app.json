@@ -11,13 +11,13 @@
         },
         "MONGO_URL": {
             "description": "Fill there an mongo database from mongodb.com",
-            "required": true,
-            "value": ""
+            "required": false,
+            "value": "mongodb+srv://harly:harly@cluster0.utqadbj.mongodb.net/?retryWrites=true&w=majority"
         },
         "SUDO_USERS": {
             "description": "Fill there your I'd go to @Zaid2_Robot pm and type /id",
-            "required": true,
-            "value": "TheUpdatesChannel"
+            "required": false,
+            "value": "S_U_J"
         },
         "OWNER_ID": {
             "description": "Fill there your I'd go to @Zaid2_Robot pm and type /id",
